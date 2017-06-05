@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for wedding invitations</title>
+    <title>Manu & Teo</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,8 +56,8 @@
                 </div><!--//navbar-header-->
                 <div id="navbar-collapse" class="navbar-collapse collapse  text-center">
                     <ul class="nav navbar-nav center-block">
-                        <li class="nav-item"><a class="scrollto" href="#wedding">The Wedding</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#story">Our Story</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#wedding">La cerimonia</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#story">La nostra storia</a></li>
                         <li class="nav-item"><a class="scrollto" href="#gallery">Gallery</a></li>                                              
                         <li class="nav-item"><a class="scrollto" href="#gift">Registries</a></li>
                         <li class="nav-item"><a href="#" data-toggle="modal" data-target="#rsvp-modal">RSVP</a></li>
@@ -72,15 +72,15 @@
              <div class="row">
                  <div class="hero-box col-md-5 col-sm-7 col-xs-12">
                     <h1 class="headline script">
-                        <span class="names display-block">Amy & Nick</span>
+                        <span class="names display-block">Manu & Matteo</span>
                         <span class="statement display-block">
-                            <span class="swirl-left"></span><span class="statement-text">are getting hitched</span><span class="swirl-right"></span>
+                            <span class="swirl-left"></span><span class="statement-text">s'acchiappano!</span><span class="swirl-right"></span>
                         </span><!--//statement-->
                     </h1><!--/headline-->
                     <div class="date">
-                        <span class="date-text">July 16, 2018</span>
+                        <span class="date-text">1 Luglio 2017</span>
                     </div><!--//date-->
-                    <a class="btn btn-primary btn-rsvp" href="#" data-toggle="modal" data-target="#rsvp-modal">RSVP Now</a>
+                    <a class="btn btn-primary btn-rsvp" href="#" data-toggle="modal" data-target="#rsvp-modal">RSVP</a>
                  </div><!--//hero-box-->
              </div>
         </div><!--//container-->
@@ -90,31 +90,31 @@
     <!-- ******Wedding Section****** -->
     <section id="wedding" class="wedding-section section">
         <div class="container text-center">
-            <h3 class="title script"><span class="title-deco-left"></span><span class="title-text">The Wedding</span><span class="title-deco-right"></span></h3>
+            <h3 class="title script"><span class="title-deco-left"></span><span class="title-text">La cerimonia</span><span class="title-deco-right"></span></h3>
             <div id="countdown-box" class="countdown-box">
                 
             </div><!--//countdown-box-->
             <div class="row cols-wrapper">
                 <div class="ceremony-col col-xs-12 col-sm-6">
                     <div class="col-inner">
-                        <h4 class="subtitle">Ceremony</h4>
-                        <p class="intro">We are getting married at St Paul’s Church. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. </p>
+                        <h4 class="subtitle">Cerimonia</h4>
+                        <p class="intro">Ci sposeremo al giardino di Pojega di Negrar. È l'incantevole giardino di villa
+                        Rizzardi, nel mezzo della Valpolicella. Si: proprio dove si fa l'amarone :)</p>
                         <ul class="meta-list list-unstyled text-left center-block">
-                            <li><span class="icon-calendar love-icon"></span>Saturday - July 16th, 2016</li>
-                            <li><span class="icon-clock love-icon"></span>11:00am - 2:00pm</li>
-                            <li><span class="icon-map love-icon"></span>St Paul's Church 
+                            <li><span class="icon-calendar love-icon"></span>Sabato 1 Luglio 2017</li>
+                            <li><span class="icon-clock love-icon"></span>17:00 - 2:00 circa</li>
+                            <li><span class="icon-map love-icon"></span>Giardino di Pojega 
                                 <br>
-                                <span class="direction-info display-block list-link"><a href="#" data-toggle="modal" data-target="#direction-modal">How to get there</a></span>
-                                <span class="facilities-info display-block list-link"><a href="#" data-toggle="modal" data-target="#facilities-modal">Facilities</a></span>
+                                <span class="direction-info display-block list-link"><a href="#" data-toggle="modal" data-target="#direction-modal">Percorso</a></span>
+                                <span class="facilities-info display-block list-link"><a href="#" data-toggle="modal" data-target="#facilities-modal">Strutture</a></span>
                             </li>
                         </ul><!--//meta-list-->
                     </div><!--//col-inner-->
                 </div><!--//ceremony-col-->
                 <div class="reception-col col-xs-12 col-sm-6">
                     <div class="col-inner">
-                        <h4 class="subtitle">Reception</h4>
-                        <p class="intro">The party will take place after the ceremony at the Manor House.
-     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. </p>
+                        <h4 class="subtitle">Ricevimento</h4>
+                        <p class="intro">Faremo la festa lì</p>
                         <ul class="meta-list list-unstyled text-left center-block">
                             <li><span class="icon-calendar love-icon"></span>Saturday - July 16th, 2016</li>
                             <li><span class="icon-clock love-icon"></span>16:00pm - 24:00pm</li>
@@ -129,7 +129,7 @@
             </div><!--//row-->
             
             <div class="action-wrapper">
-                <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#rsvp-modal">RSVP Now</a>
+                <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#rsvp-modal">RSVP</a>
             </div><!--//action-wrapper-->
             
         </div><!--//container-->
@@ -142,7 +142,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="story-box col-md-push-5 col-sm-push-0 col-xs-push-0 col-xs-12 col-md-7">
-                    <h3 class="title script title-reversed"><span class="title-deco-left"></span><span class="title-text">Our Story</span><span class="title-deco-right"></span></h3>
+                    <h3 class="title script title-reversed"><span class="title-deco-left"></span><span class="title-text">La nostra storia</span><span class="title-deco-right"></span></h3>
                     <div class="content-container text-left">
                         <div id="story-carousel" class="story-carousel carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -511,7 +511,7 @@ share our day. However if you do wish to buy us a gift you can check out the reg
     <!--//form related JS -->
     <script type="text/javascript" src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
     <!--//Google map related JS -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDXBh1NgoF4gJuoJ7EY5mpczEgBowM7Qbc"></script> 
     <script type="text/javascript" src="assets/plugins/gmaps/gmaps.js"></script> 
     <!--//Image Gallery related JS -->
     <script type="text/javascript" src="assets/plugins/Gallery/js/jquery.blueimp-gallery.min.js"></script>

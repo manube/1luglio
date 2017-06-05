@@ -26,7 +26,7 @@ $(document).ready(function() {
     
     /* ======= Countdown ========= */
 	// set the date we're counting down to
-    var target_date = new Date("July 16, 2018").getTime();
+    var target_date = new Date("July 1, 2017").getTime();
      
     // variables for time units
     var days, hours, minutes, seconds;
@@ -79,39 +79,38 @@ $(document).ready(function() {
     /* ======= Google Map ======= */
     map = new GMaps({
         div: '#map',
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: 45.5332057,
+        lng: 10.943187,
         scrollwheel: false,
-        zoom: 14,
+        zoom: 16,
     });
     
     map.addMarker({
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: 45.5333631, 
+        lng: 10.9455254,
         verticalAlign: 'top',
-        title: 'Ceremony Location',  
+        title: 'Cerimonia & Party',  
         infoWindow: {
-            content: '<div class="note">Ceremony</div><h4 class="map-title script">St Paul\'s Church</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Cerimonia & Party</div><h4 class="map-title script">Manu & Teo</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
         }
         
         
-    });
-    
+    }); 
 
     map.addMarker({
-        lat: 50.969747,
-        lng: -3.199985,
-        title: 'Reception Location',      
+        lat: 45.534044,
+        lng: 10.946218,
+        title: 'Parcheggio',      
         infoWindow: {
-            content: '<div class="note">Reception</div><h4 class="map-title script">The Manor House</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Parcheggio</div><div class="address"><span class="region">Qui potete parcheggiare</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
         } 
         
     });
     
     /*display marker 1 address on load */
-    google.maps.event.trigger(map.markers[0], 'click');
-    /*display marker 2 address on load */
     google.maps.event.trigger(map.markers[1], 'click');
+    /*display marker 2 address on load */
+    google.maps.event.trigger(map.markers[0], 'click');
 
     
     /* ===== Packery ===== */
